@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- Device tree -->
+  <project name="motorola-mt6768/android_device_motorola_corfu" path="device/motorola/corfu" remote="github" revision="main" />
+
+  <!-- Vendor tree -->
+  <project name="motorola-mt6768/android_vendor_motorola_corfu" path="vendor/motorola/corfu" remote="github" revision="main-corfu" />
+
+  <!-- Kernel source -->
+  <project name="motorola-mt6768/android_kernel_motorola_corfu" path="kernel/motorola/corfu" remote="github" revision="main" />
+
+</manifest>
