@@ -5,7 +5,7 @@
   <project name="motorola-mt6768/android_device_motorola_corfu" path="device/motorola/corfu" remote="github" revision="main" />
 
   <!-- Vendor tree -->
-  <project name="motorola-mt6768/android_vendor_motorola_corfu" path="vendor/motorola/corfu" remote="github" revision="main-corfu" />
+  <project name="motorola-mt6768/android_vendor_motorola_corfu" path="vendor/motorola/corfu" remote="github" revision="main" />
 
   <!-- Kernel prebuilt -->
   <project name="motorola-mt6768/android_kernel_motorola_corfu-prebuilt" path="prebuilt/motorola/corfu" remote="github" revision="main" />
@@ -14,9 +14,10 @@
   <project name="motorola-mt6768/android_kernel_motorola_corfu" path="kernel/motorola/corfu" remote="github" revision="main" />
   
     <!-- sepolicy -->
-  <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-20" />
+  <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-21" />
 
     <!-- hardware -->
-  <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="github" revision="lineage-20" />
+  <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-21" />
 
 </manifest>
